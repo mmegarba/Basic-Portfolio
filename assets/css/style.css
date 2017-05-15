@@ -86,8 +86,8 @@ margin-bottom:20px;
 
 #aside{
 float:left;                                                                                                                                 
-width:20%;
-margin-left:50px;
+width:15%;
+margin-left:5%;
 margin-right:20%;
 padding:20px;
 background:white;
@@ -106,7 +106,7 @@ margin-top:20px;
   float:left;
   width:20%;
   height:20%;
-  margin-left:5%;
+  margin-left:10%;
   margin-top:10px;
   z-index:0;
 }
@@ -160,4 +160,5 @@ footer {
 h1{
   font-family: "Georgia", "Times", "Times New Roman", "serif";
   color:#4aaaa5;
+  font-size:24px;
 }
