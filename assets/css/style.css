@@ -57,13 +57,17 @@ display:inline;
 
 }
 
-#portfolliobanner
+#portfoliobanner
 {
   background-color:teal;
-  text-align:center;
-  position:relative;
+  /*text-align:center;*/
+  position:absolute;
   border-style:solid;
   top:180px;
+  right:100px;
+  width:20%;
+  float:left;
+  z-index:2;
 }
 
 
