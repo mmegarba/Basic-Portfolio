@@ -1,0 +1,159 @@
+
+
+* {
+  /*box-sizing: border-box;*/
+  /*text-align: center;*/
+}
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 20px;
+  color: #333;
+  background-image: url("../images/cork.png");
+}
+
+
+header {
+
+  width: 100%;
+  /*margin-top:-10;*/
+  padding: 20px;  
+  background-color:#ffffff;
+  /*margin-left:-10;*/
+  height:30px;
+}
+
+#navi{
+
+width: 30%;
+background:white;
+float:left;
+display:inline;
+/*margin:right %;*/
+
+}
+
+
+#name
+{
+  background-color:#4aaaa5;
+  color:white;
+ font-size:24pt;
+  text-align:center;
+  position:relative;
+  width:10%;
+  margin-left:20%;
+  padding:20px;
+  font-size:14pt;
+  float:left;
+  bottom:20px;
+  height:30px;
+
+}
+
+#portfolliobanner
+{
+  background-color:teal;
+  text-align:center;
+  position:relative;
+  border-style:solid;
+  top:180px;
+}
+
+
+
+section{
+
+float:left;
+width:40%;
+margin-left:10%;
+clear:both;
+background:white;
+padding:20px;
+margin-top:20px;
+
+}
+
+#aside{
+float:left;                                                                                                                                 
+width:20%;
+margin-left:50px;
+margin-right:20%;
+padding:20px;
+background:white;
+margin-top:20px;
+}
+
+
+#imgme{
+
+  float:left;
+
+}
+
+#imgicon{
+
+  float:left;
+  width:75px;
+  height:75px;
+  margin-left:35px;
+  margin-top:10px;
+  z-index:0;
+}
+
+#divider
+
+{
+
+border-style:solid;
+border-width:1px;
+border-color:lightgrey;
+}
+
+footer {
+	padding: 20px;
+  background-color:#666666;
+  position:fixed;
+  width:100%;
+  clear:both;
+  bottom:0px;
+  left:0px;
+  text-align:center;
+  border-top:solid;
+  border-width:5px;
+  border-color:cyan;
+}
+
+
+
+#navigation ul
+{
+    margin: 0;
+    padding: 0;
+    float:left;
+    margin-left:50%;
+}
+
+#navigation ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+#navigation li:not(:first-child):before {
+    content: " | ";
+}
+
+
+
+
+h1{
+  font-family: "Georgia", "Times", "Times New Roman", "serif";
+  color:#4aaaa5;
+}
